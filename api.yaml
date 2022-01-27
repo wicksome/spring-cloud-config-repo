@@ -1,2 +1,4 @@
 naver: https://www.naver.com
 google: https://www.google.com
+item-client:
+  host: application.config-server.default
