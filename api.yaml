@@ -1,4 +1,14 @@
 naver: https://www.naver.com
 google: https://www.google.com
+
 item-client:
-  host: application.config-server.default
+  host: config-server.default
+
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+item-client:
+  host: config-server.dev
