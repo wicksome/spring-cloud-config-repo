@@ -1,8 +1,9 @@
 naver: https://www.naver.com
 google: https://www.google.com
 
-item-client:
-  host: config-server.default
+client:
+  item:
+    base-url: config-server.default
 
 ---
 spring:
@@ -10,5 +11,6 @@ spring:
     activate:
       on-profile: dev
 
-item-client:
-  host: config-server.dev
+client:
+  item:
+    base-url: config-server.dev
