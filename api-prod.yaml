@@ -1,0 +1,3 @@
+client:
+  item:
+    base-url: config-server.prod
